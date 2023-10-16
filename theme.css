@@ -1,10 +1,41 @@
 /* colors */
-head {
-    background-color: #000000;
+.orange {
+    color: #ec9413;
+}
+.gold {
+    color: #cfb87c;
+}
+.black {
+    color: #000000;
 }
 
 body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #ffffff;
+}
+
+/* bold Tahoma for header */
+header {
+    font-family: 'Tahoma Bold', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading-container {
+    display: flex;
+}
+
+h1 {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+h1.gold {
+    font-size: 32px;
+    color: #cfb87c;
+}
+h1.black {
+    font-size: 32px;
+    color: #000000;
 }
 
 .navbar {
@@ -12,8 +43,4 @@ body {
     .navbar:hover {
         background-color: #cfb87c;
     }
-}
-
-.icon {
-    color: #ec9413;
 }
