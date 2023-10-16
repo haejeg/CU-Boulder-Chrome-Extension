@@ -1,0 +1,19 @@
+/* colors */
+head {
+    background-color: #000000;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.navbar {
+    background-color: #ffffff;
+    .navbar:hover {
+        background-color: #cfb87c;
+    }
+}
+
+.icon {
+    color: #ec9413;
+}
